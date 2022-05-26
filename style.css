@@ -1,3 +1,7 @@
+legend {
+    text-align: center;
+}
+
 form {
     /* centralizador do formulário */
     margin: 0 auto;
