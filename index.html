@@ -9,30 +9,36 @@
 </head>
 <body>
 
-<form action="#" method="post">
+<form action="#" method="POST">
+
 <fieldset>
-           <legend>Cadastre-se no Formulário</legend>
+
+                        <legend>Formulário</legend>
 
     <div>
-      <label for="nome">Nome:</label>
-      <input type="text" id="nome" name="usuario_nome" />
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" placeholder="Escreva seu nome completo" maxlength="2" size="200" />
     </div>
 
     <div>
-      <label for="email">Email:</label>
-      <input type="text" id="email" name="usuario_email" />
+    <label for="email">Email:</label>
+    <input type="text" id="email" placeholder="Escreva seu email" />
     </div>
 
     <div>
-      <label for="msg">Mensagem:</label>
-      <textarea id="msg" name="usuario_msg"></textarea>
+    <label for="password">Senha:</label>
+    <input type="password" id="password" placeholder="Crie uma senha" required />
     </div>
 
     <div class="button">
-      <button type="submit">Enviar sua Mensagem</button>
+    <button id="button" type="submit">Cadastrar</button>
     </div>
+
+
 </fieldset>
+
 </form>
+
 
 </body>
 </html>
